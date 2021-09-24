@@ -68,7 +68,7 @@
 
 <body>
     <?php
-    error_reporting(E_ALL ^ E_NOTICE ^ E_WARNING);
+    error_reporting(E_ALL ^ E_NOTICE ^ E_WARNING); //evitar que nos envie noticias y no muestre warnings
 
     if ($_GET["error"] == "si") {
         echo "<span style=\"color:#F00; font-size:2em;\">VERIFICA TUS DATOS</span>";
